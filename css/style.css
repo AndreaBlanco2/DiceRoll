@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(45deg, rgb(17, 180, 87), rgb(0, 89, 255));
+}
+
+.gamearea .output {
+    display: block;
+}
+img{
+    height: 25vh;
+    float: left;
+    overflow: auto;
+    margin: 10%;
+}
+
+.gamearea::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#rollbtn {
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    color: red;
+    display: block;
+    margin: auto;
+}
+
+.output {
+    color: aliceblue;
+    font-size: 50px;
+    margin-top: 5%;
+    font-family: 'Sigmar One', cursive;
+}
+
+.total {
+    background-color: aliceblue;
+    opacity: 0.8;
+    width: 200px;
+    height: 20vh;
+    border-radius: 20px;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Sigmar One', cursive;
+
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 20px;
+}
