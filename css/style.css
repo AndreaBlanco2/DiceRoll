@@ -19,11 +19,11 @@ body {
 }
 
 img{
-    height: 35vh;
+    height: 32vh;
    margin: 10%;
 }
 
-#rollbtn {
+#rollbtn , #finish {
     border-radius: 5px;
     width: 200px;
     color: red;
@@ -75,7 +75,22 @@ img{
 }
 
 .scores {
-    display: flex;
+    margin: auto;
+        display: flex;
     justify-content: space-around;
+    /* justify-items: center; */
+    text-align: center;
         margin-top: 20px;
+        
+        
+}
+
+#score1, #score2 {
+    width: 20vh;
+    height: 10vh;
+    padding-top: 2vh;
+    font-size: 50px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    
 }
